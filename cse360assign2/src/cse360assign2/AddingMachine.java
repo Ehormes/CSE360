@@ -83,7 +83,17 @@ public class AddingMachine {
 		myCalculator.subtract (2);
 		myCalculator.add(5);
 		
-		System.out.println(myCalculator.toString());	
+		System.out.println(myCalculator.toString());
+		System.out.println("The total is: " + myCalculator.getTotal() + "\n");
+		
+		AddingMachine myCalculator1 = new AddingMachine();
+		myCalculator1.add (10);
+		myCalculator1.subtract (8);
+		myCalculator1.add(12);
+		
+		System.out.println(myCalculator1.toString());	
+		System.out.println("The total is: " + myCalculator1.getTotal() + "\n");
+		
 		
 	}
 	
